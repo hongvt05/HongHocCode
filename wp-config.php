@@ -4,7 +4,7 @@
  */
 
 /** ================= DATABASE ================= */
-define('DB_NAME', 'btl');      // Database đã tạo trong phpMyAdmin
+define('DB_NAME', 'btl_db');      // Database đã tạo trong phpMyAdmin
 define('DB_USER', 'root');     // XAMPP mặc định
 define('DB_PASSWORD', '');     // XAMPP thường để trống
 define('DB_HOST', 'localhost');
@@ -34,10 +34,6 @@ $table_prefix = 'wp_';
 define('WP_DEBUG', false);
 
 
-/** ================= URL LOCALHOST ================= */
-/* QUAN TRỌNG: port 8888 */
-define('WP_HOME', 'http://localhost:8888/BTL');
-define('WP_SITEURL', 'http://localhost:8888/BTL');
 
 define('FORCE_SSL_ADMIN', false);
 
